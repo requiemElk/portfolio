@@ -1,29 +1,38 @@
+/* applicage universelle */
 body {
     background-color: #73BF71;
-    font-family: calibri, sans-serif;
-}
+    font-family: calibri, Arial;
 
-h1 {
-    color: blue;
-    font-size: 24px;
-}
-
-p {
-    color: white   ;
-    background-color: purple;
-    padding: 10px;
-    line-height: 1.6;
-    border-radius: 5px;
 }
 
 /*id unique sur tout le site*/
 #titre {
     color: red;
-    font-size: 36px;
+    font-size: 20px;
+    background-color: grey;
+    border-radius: 10px;
 }
 
 /*class peut être utilisé plusieurs fois sur le site*/
 .para {
-    color: green;
+    color: black;
     font-size: 18px;
+    display: inline-flex;
+    block-size: 200px;
+}
+
+.petitpara {
+    color: black;
+    font-size: 18px;
+    display: inline-flex;
+    block-size: 100px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    background-color: #F3AA00;
+    border-radius: 10px;
+    width: 30%;
+    
 }
