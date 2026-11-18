@@ -14,16 +14,43 @@ li {
     background-color: #F3AA00;
     border-radius: 10%;
 }
+
+p {
+    display: flex;
+    font-size: 20px;
+    background-color: #F3AA00;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    width: 30%;
+    
+}
 /*logo abeille*/
 #logo {
     width: 5%;
     height: 5%;    
 }
+
+#avatar {
+    width: 30%;
+    height: 30%;    
+}
+
+#logo:hover {
+    width: 5%;
+    height: 5%;
+    rotate: 9000deg;
+    transform: scale(4);
+    transition: all 10s ease-in-out;
+}
+
+
 /*nouveau titre*/
 #bandeau{
     background-color: rgb(42, 165, 165);
     height: 10%;
-    border-radius: 10%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,22 +77,33 @@ li {
 
 /*class peut être utilisé plusieurs fois sur le site*/
 .para {
-    color: black;
-    font-size: 18px;
     display: flex;
-    margin : 10px;
-    padding : 10px;
-    width: 30%;
-    height: 30%;
-    justify-content: space-between;
-}
-
-
-p {
-    color: black;
-    font-size: 18px;
-    background-color: #F3AA00;
-    border-radius: 10px;
-    width: 30%;
+    justify-content: space-around;
     
 }
+
+#moi {
+    background-color: #F3AA00;
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.icone {
+    width: 3%;
+    height: 3%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+
+#moi + #avatar {
+    display: flex;
+    justify-content: space-around;
+   flex-direction: column;
+}
+
